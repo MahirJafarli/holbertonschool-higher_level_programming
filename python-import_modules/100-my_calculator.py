@@ -15,7 +15,7 @@ def main():
     ops = {
         "+": add,
         "-": sub,
-        chr(42): mul,
+        "*": mul,
         "/": div
     }
 
