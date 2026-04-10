@@ -62,6 +62,7 @@ class Square:
 
         # Handle vertical position (position[1])
         # Only print newlines if size > 0
+        if self.__position[1] > 0:
         for _ in range(self.__position[1]):
             print("")
 
