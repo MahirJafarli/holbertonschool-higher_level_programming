@@ -9,7 +9,7 @@ import requests
 if __name__ == "__main__":
     url = 'https://intranet.hbtn.io/status'
     r = requests.get(url, headers={'cf-clearance': 'true'})
-    
+
     content = r.text
 
     print("Body response:")
