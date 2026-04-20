@@ -13,8 +13,8 @@ if __name__ == "__main__":
     values = {'email': email}
     data = urllib.parse.urlencode(values).encode('ascii')
     req = urllib.request.Request(
-            url, 
-            data=data, 
+            url,
+            data=data,
             headers={'cf-clearance': 'true'}
             )
     with urllib.request.urlopen(req) as response:
